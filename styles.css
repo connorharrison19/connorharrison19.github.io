@@ -315,8 +315,7 @@ ul { list-style: none; }
 }
 
 .about-photo-wrap {
-  position: sticky;
-  top: 88px;
+  position: static;
 }
 
 .headshot {
