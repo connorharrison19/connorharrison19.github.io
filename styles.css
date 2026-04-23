@@ -881,6 +881,47 @@ ul { list-style: none; }
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* ─── Practice Leadership ─── */
+.practice-leadership {
+  background: var(--white);
+}
+
+.practice-leadership-intro {
+  color: var(--text-muted);
+  font-size: 1.025rem;
+  max-width: 720px;
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+}
+
+.pl-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pl-card {
+  background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+}
+
+.pl-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--blue-deep);
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--blue-light);
+}
+
+.pl-card-body {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
 /* ─── Thought Leadership ─── */
 .thought-leadership {
   background: var(--white);
@@ -1219,6 +1260,7 @@ ul { list-style: none; }
   .volunteer-grid { grid-template-columns: 1fr; }
   .volunteer-header { flex-direction: column; }
   .volunteer-award { max-width: 100%; }
+  .pl-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
