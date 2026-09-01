@@ -993,12 +993,9 @@ ul { list-style: none; }
 }
 
 .tl-item {
-  display: grid;
-  grid-template-columns: 60px 1fr;
-  gap: 1.25rem;
+  display: block;
   padding: 1.25rem 0;
   border-bottom: 1px solid var(--border);
-  align-items: start;
 }
 .tl-item:last-child { border-bottom: none; }
 
