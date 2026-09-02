@@ -997,6 +997,15 @@ ul { list-style: none; }
   border-bottom: 2px solid var(--blue-light);
 }
 
+.tl-subgroup-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 1.5rem 0 0.75rem;
+}
+
 .tl-list {
   display: flex;
   flex-direction: column;
