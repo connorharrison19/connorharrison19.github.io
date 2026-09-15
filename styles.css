@@ -711,7 +711,12 @@ ul { list-style: none; }
   max-width: 560px;
 }
 
-.resume-cta-wrap .section-heading { margin-bottom: 1rem; }
+.resume-cta-heading {
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
+}
 
 .resume-cta-desc {
   color: var(--text-muted);
